@@ -8,6 +8,13 @@
       "when": 1758505986911,
       "tag": "0000_curvy_selene",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1759014363799,
+      "tag": "0001_nifty_kate_bishop",
+      "breakpoints": true
     }
   ]
 }
