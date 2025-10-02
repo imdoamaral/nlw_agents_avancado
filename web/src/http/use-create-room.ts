@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import type { createRoomResponse } from "./types/create-room-response";
-import type { createRoomRequest } from "./types/create-rooms-request";
+import type { createRoomRequest } from "./types/create-room-request";
+import type { CreateRoomResponse } from "./types/create-room-response";
 
 export function useCreateRoom() {
 	const queryClient = useQueryClient();
@@ -15,7 +15,7 @@ export function useCreateRoom() {
 				},
 				body: JSON.stringify(data),
 			});
-			const result: createRoomResponse = await response.json();
+			const result: CreateRoomResponse = await response.json();
 
 			return result;
 		},

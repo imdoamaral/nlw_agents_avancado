@@ -15,6 +15,20 @@
       "when": 1759014363799,
       "tag": "0001_nifty_kate_bishop",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1759342631581,
+      "tag": "0002_strange_felicia_hardy",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1759362641505,
+      "tag": "0003_dapper_ser_duncan",
+      "breakpoints": true
     }
   ]
 }
